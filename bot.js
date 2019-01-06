@@ -37,7 +37,7 @@ const queue = new Map();
  
  
  
-var prefix = "2" 
+var prefix = "1" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
@@ -283,10 +283,10 @@ ${prefix}queue ⇏ ♠لمعرفة قآئمة التشغيل❗
 
 
 client.on('ready', () => {
-client.user.setGame('Music II 2Play ','https://www.twitch.tv/kemo355');
+client.user.setGame('Music II 1Play ','https://www.twitch.tv/kemo355');
 console.log('Logging into discord..');
 console.log(`
-By MR_Phantom
+By TorpeDoSyS
 `);
 
 });
@@ -301,6 +301,6 @@ By MR_Phantom
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "515106841315901451" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "530742270689935370" && ch.type === 'voice').join();
 });
 client.login(process.env.BOT_TOKEN);
